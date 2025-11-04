@@ -1,5 +1,10 @@
 module Lib1
-    ( examples, Command(..), Dumpable(..)
+    ( examples
+    , Command(..)
+    , Dumpable(..)
+    , Book(..)
+    , Shelf(..)
+    , LibraryElement(..)
     ) where
 
 data Dumpable = Examples
